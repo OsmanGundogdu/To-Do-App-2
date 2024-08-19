@@ -1,0 +1,23 @@
+.task {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.task-label {
+	display: flex;
+	align-items: center;
+}
+
+.task-checkbox {
+    margin-right: 10px; 
+}
+
+.delete-icon {
+	margin-left: auto;
+	cursor: pointer;
+}
+
+.completed-task {
+    text-decoration: line-through;
+}
